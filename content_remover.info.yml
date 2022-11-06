@@ -1,0 +1,7 @@
+name: Content Remover
+type: module
+description: Drupal 9 module that removes content from selected entity
+package: Custom
+core_version_requirement: ^9 || ^10
+configure: content_remover.settings
+php: 8.0

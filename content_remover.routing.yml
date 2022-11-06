@@ -1,0 +1,7 @@
+content_remover.settings:
+  path: 'admin/config/content/remover'
+  defaults:
+    _title: 'Content Remover'
+    _form: 'Drupal\content_remover\ContentRemoverSettingsForm'
+  requirements:
+    _permission: 'administer content_remover configuration'
